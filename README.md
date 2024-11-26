@@ -1,10 +1,10 @@
 # Generative-Chatbot-with-Rasa-and-LLMs
 
 Comprehensive Project Report: AI Chatbot with DialoGPT, Phi-3-mini-4k-instruct, and Rasa Integration
-#1. Overview
+# 1. Overview
 This project implements a versatile, context-aware chatbot using advanced AI models and frameworks. The chatbot combines the generative power of DialoGPT and Phi-3-mini-4k-instruct with the rule-based capabilities of the Rasa Framework, allowing for a hybrid conversational system. The chatbot handles open-domain conversations, maintains multi-turn context, and supports structured intent recognition.
 
-#2. Key Components
+# 2. Key Components
 DialoGPT:
 
 Purpose: A generative conversational model for open-domain dialogue.
@@ -29,7 +29,7 @@ Domain and story definitions for structured conversation flow.
 Rule-based fallback mechanisms for unknown inputs.
 Use Case in Project: Adds intent-based capabilities, allowing the chatbot to understand and act on user intents alongside generative responses.
 
-#3. Features Implemented
+# 3. Features Implemented
 Interactive Chat with DialoGPT:
 
 Managed user input and response generation.
@@ -52,7 +52,7 @@ Chatbot-to-Chatbot Interaction:
 Enabled DialoGPT and Rasa bots to interact with each other.
 Automated message exchange between bots to evaluate response quality and coherence.
 
-#4. Key Technologies Used
+# 4. Key Technologies Used
 Programming Language: Python
 Core Libraries:
 Transformers: Provided pre-trained models (DialoGPT and Phi-3-mini-4k-instruct) and tokenizers.
@@ -60,7 +60,7 @@ PyTorch: Enabled efficient inference and model handling.
 Frameworks:
 Rasa Framework: Managed structured conversational workflows and intent recognition.
 
-#5. Challenges and Solutions
+# 5. Challenges and Solutions
 Challenge: Maintaining coherent conversation history for generative models.
 
 Solution: Implemented role-based message tracking and truncated history when necessary.
