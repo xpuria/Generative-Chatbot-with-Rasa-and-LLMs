@@ -2,7 +2,7 @@
 
 Comprehensive Project Report: AI Chatbot with DialoGPT, Phi-3-mini-4k-instruct, and Rasa Integration
 # 1. Overview
-This project implements a versatile, context-aware chatbot using advanced AI models and frameworks. The chatbot combines the generative power of DialoGPT and Phi-3-mini-4k-instruct with the rule-based capabilities of the Rasa Framework, allowing for a hybrid conversational system. The chatbot handles open-domain conversations, maintains multi-turn context, and supports structured intent recognition.
+This project implements a versatile, context-aware chatbot using advanced AI models and frameworks. The chatbot combines the generative power of DialoGPT and Phi-3-mini-4k-instruct with the rule-based capabilities of the Rasa Framework, allowing for a hybrid conversational system. The chatbot handles open-domain conversations, maintains multi-turn context, and supports structured intent recognition. and also we compare them by allowing them to talk with each other for 10 turns.
 
 # 2. Key Components
 DialoGPT:
